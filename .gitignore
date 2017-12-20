@@ -1,0 +1,6 @@
+/target/
+#intellij related
+*.iml
+*.jar
+.idea/
+.project
