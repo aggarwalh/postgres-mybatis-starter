@@ -1,4 +1,4 @@
-package com.aggarwalh.pgstarter.dao;
+package com.aggarwalh.pgstarter;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

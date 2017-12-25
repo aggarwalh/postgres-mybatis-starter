@@ -1,4 +1,4 @@
-package com.aggarwalh.pgstarter.dao.domain;
+package com.aggarwalh.pgstarter.domain;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;

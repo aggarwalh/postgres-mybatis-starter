@@ -1,6 +1,6 @@
 package com.aggarwalh.pgstarter.dao;
 
-import com.aggarwalh.pgstarter.dao.domain.FlatObject;
+import com.aggarwalh.pgstarter.domain.FlatObject;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;

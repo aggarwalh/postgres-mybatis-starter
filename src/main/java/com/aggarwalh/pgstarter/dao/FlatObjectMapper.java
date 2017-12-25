@@ -1,6 +1,6 @@
 package com.aggarwalh.pgstarter.dao;
 
-import com.aggarwalh.pgstarter.dao.domain.FlatObject;
+import com.aggarwalh.pgstarter.domain.FlatObject;
 import org.apache.ibatis.annotations.*;
 
 import java.util.List;
