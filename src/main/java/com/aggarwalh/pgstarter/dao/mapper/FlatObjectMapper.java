@@ -1,4 +1,4 @@
-package com.aggarwalh.pgstarter.dao;
+package com.aggarwalh.pgstarter.dao.mapper;
 
 import com.aggarwalh.pgstarter.domain.FlatObject;
 import org.apache.ibatis.annotations.*;
@@ -8,7 +8,6 @@ import java.util.List;
 /**
  * @author Harshit Aggarwal
  */
-@Mapper
 public interface FlatObjectMapper {
 
     @Results(id = "flatObject",value = {
@@ -49,4 +48,6 @@ public interface FlatObjectMapper {
     @Delete("DELETE FROM flat_table where id = #{id}")
     void deleteDataById(Long id);
 
+    @Flush
+    List flush();
 }
